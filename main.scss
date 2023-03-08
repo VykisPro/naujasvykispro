@@ -1,0 +1,265 @@
+@import url("https://github.com/necolas/normalize.css.git");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+section#press > div#faker.box {visibility: hidden;}
+div#faker.copy {display:none;
+p{margin:0px;}}
+
+section#press{ display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 20px;
+    div.box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;}
+    }
+/* Break Point ---------------------------------------------------------------------------------------------- */
+
+@media (min-width: 768px) {
+    body {padding:40px;}
+     header {
+                align-items:center;
+            #wtf ul {
+                        display:initial;
+                        display: flex;
+                     }
+            }
+             #burger{display:none;} 
+             #red a {color:#FF3998;
+            font-size: 20px;line-height: 20px;} 
+
+            div.container {margin-top: 100px;
+            margin-bottom:0px;
+        padding-top:200px;}
+            .container {div#text_width{
+                        width: 40%;}
+                        div#ateivispng img{width: 300px; height:auto;
+                        }
+                        div#ateivis {position: relative;
+                        left:300px;
+                        div#eclipse {
+                            position: relative;
+                            background: linear-gradient(0deg, #FF8139, #FF8139), #FF8139; filter: blur(55.3686px);
+                            width: 200px; height:200px;
+                            top:-300px;
+                            right:5px;
+                            z-index: -1;
+                            }
+                        div#eclipsex {
+                            border-radius: 50%;
+                            position:relative;
+                            width: 300px; height: 300px;
+                            background: #ff3998; filter: blur(130.3686px);
+                            right:100px;
+                            top:-500px;
+                            z-index: -1;}    }
+                
+        }
+            
+
+            section#press > div#faker.box {visibility:visible;}
+            section#press {display:flex;
+            justify-content: center; gap:40px;}
+            section#press > div {
+                display: unset;
+                width: 100px; height: 100px;}
+                section#showcase{position:relative;
+                    top:100px;}
+            section#showcase > div#container {
+                justify-content: space-evenly;}
+            section#upsell{
+                border-radius: 25px 5px;
+            }
+            #togepi {margin-left:400px;}
+    
+
+        #bot {display:flex;
+        justify-content: space-between;}
+
+        footer div#faker.copy {display: unset;}
+        footer #copyright{display: flex;
+        justify-content: space-between;}
+    }
+            
+ /* BREAK POINT MEDIA END -----------------------------------------------------------------------*/
+    
+body{
+    margin:0 auto;
+overflow-x: hidden;
+font-family: 'Inter', sans-serif;}
+
+header { 
+        padding:15px;
+        i {color:#555555;
+            font-size:24px;
+            }
+       display:flex;
+       justify-content: space-between;
+       align-items: center;
+        #logo {height: 100%;
+            width: 500px;}
+        img {height: 100%;
+        width: 50%;
+        object-fit: contain;}
+         nav ul { 
+                display: none;
+                 gap:40px;
+                text-decoration: none;
+            li {list-style: none;
+            a {text-decoration: none;
+                font-size: 20px;
+             line-height:20px;
+            color:#555555}
+            }}
+    }
+    .container {
+        :first-child{display: flex;
+        flex-flow: column nowrap;}
+        margin:0px;
+        overflow: hidden;
+        img{width: auto;
+         height: 175px;};
+        display: flex;
+        position: relative;
+        width: 100%;
+        top:50px;
+        left:30px;
+        background-color: #FFFFFF;
+        div#ateivispng {position:relative;
+            top:0px;
+            right:-10px;}
+            z-index: 100;
+        div#eclipse {
+            position: relative;
+            background: linear-gradient(0deg, #FF8139, #FF8139), #FF8139; filter: blur(55.3686px);
+            width: 100px; height:50px;
+            top:-100px;
+            right:15px;
+            z-index: -1;
+            }
+        div#eclipsex {
+            border-radius: 50%;
+            position:relative;
+            width: 100px; height: 100px;
+            background: #ff3998; filter: blur(20.3686px);
+            right:5px;
+            top:-150px;
+            z-index: -1;}    
+        #text_width {width: 90%;}
+ }
+
+  section#upsell{
+    h2{font-size:40px; padding-top:100px; margin-bottom: -15px ;}
+    p{font-size: 20px; padding-bottom: 30px;}
+    background: linear-gradient(#ff3998, orange);
+    margin-top: 150px;
+    height: auto;
+    text-align:center;
+    padding-top:0px;
+    box-sizing: content-box;
+    }    
+    
+.launch {color: #FF3998;
+         width: 100%;
+         font-weight:600;
+}
+
+
+ .card { 
+        display: flex;
+        flex-flow:column nowrap;
+        width: 280px;
+        height: 250px;}
+
+ #eth { display: flex;
+        flex-direction:row;
+        align-items: center;
+        font-size: 20px;
+        text-align: end;
+        p{margin: 0px;
+        color:#111111;
+        font-weight:bolder;}
+    }
+    .ss > p{text-align: end;
+        color:#777777;}
+    #basic {font-size: 18px;
+            color:#777777;}
+
+
+div.lower  {
+    display: flex;
+    flex-flow:row;
+    justify-content: space-between;
+    padding: 10px;}
+
+div.ft {
+    width: 290px;
+    height:298px;
+}
+
+#slide {display: flex;
+width: 100%;
+height:auto;}
+
+div#container {display:flex;
+    flex-direction: row;
+gap:30px; flex-wrap: nowrap;}
+
+footer {margin-top: 350px;}
+
+#showcase {padding: 15px;}
+
+.series {
+    color:#FF8139;
+    font-size: 12px;
+}
+
+p.strong {
+font-size:20px; color:#111111;
+font-weight:bolder;}
+
+#ftsell {
+    padding:15px;
+    display: flex;
+    #togepi {position: relative;
+                left:50px;}
+}
+
+
+.lg {background: 
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(90deg, #ff3998, orange) border-box;
+  color: #313149;
+  border: 3px solid transparent;
+  border-radius: 40px;
+  display: inline-block;
+  font-size: 24px;
+  width: 188px;
+  height: 75px;
+  text-align: center;
+  margin-top: 20px;}
+
+  #bot {padding:15px;
+        p{color:#555555;}
+        i {font-size: 18px;
+        color:#555555;padding: 0 10px 0 10px;}    }
+
+#hodl {display: flex; 
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        div{width:130px; height: 200px;
+        p:first-of-type{font-weight: bold; margin-bottom: 30px;}
+        }}
+
+    #copyright{ padding:15px;
+     .copy {
+    margin:0 0 50px 0;
+    font-size:20px;
+    color:#999999;;
+    }
+}
