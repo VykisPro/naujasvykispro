@@ -13,6 +13,11 @@ div#faker.copy p {
   margin: 0px;
 }
 
+section#press div.box > p {
+  color: #999999;
+  font-weight: bold;
+}
+
 section#press {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -298,6 +303,7 @@ footer {
 
 #showcase {
   padding: 15px;
+  overflow: scroll;
 }
 
 .series {
@@ -366,4 +372,4 @@ p.strong {
   margin: 0 0 50px 0;
   font-size: 20px;
   color: #999999;
-}
+}/*# sourceMappingURL=main.css.map */

@@ -6,7 +6,7 @@
 section#press > div#faker.box {visibility: hidden;}
 div#faker.copy {display:none;
 p{margin:0px;}}
-
+section#press div.box > p {color:#999999; font-weight: bold;}
 section#press{ display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -212,7 +212,8 @@ gap:30px; flex-wrap: nowrap;}
 
 footer {margin-top: 350px;}
 
-#showcase {padding: 15px;}
+#showcase {padding: 15px;
+overflow: scroll;}
 
 .series {
     color:#FF8139;
@@ -263,3 +264,8 @@ font-weight:bolder;}
     color:#999999;;
     }
 }
+
+div.card > div.lower {background-color:lightgray;
+width: 98%;
+border-radius: 10px;
+margin-left:-2px}
